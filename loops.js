@@ -14,7 +14,7 @@ function drawVLine(n) {
 /**
  *
  * In this function, you will have to draw a horizontal line with `n` length
- * for example `drawHLine(5) should print out # # # # # (there are spaces here!)
+ * for example `drawHLine(5) should print out #####
  */
 function drawHLine(n) {
   // Continue the code here
@@ -25,11 +25,11 @@ function drawHLine(n) {
  * In this function, you will have to draw a square with a length of `n` 
  * for example `drawSquare(5) should print out 
  
-  #  #  #  #  #
-  #  #  #  #  #
-  #  #  #  #  #
-  #  #  #  #  #
-  #  #  #  #  #
+  ##### 
+  ##### 
+  ##### 
+  ##### 
+  #####
 
  */
 function drawSquare(n) {
@@ -42,10 +42,10 @@ function drawSquare(n) {
  * for example `drawLeftTriangle(5) should print out 
  
   #  
-  #  #  
-  #  #  #  
-  #  #  #  #  
-  #  #  #  #  #
+  ##  
+  ###  
+  ####  
+  #####
 
  */
 function drawLeftTriangle(n) {
@@ -79,3 +79,10 @@ function fillUnoDeck() {
   let blueCards = [];
   // Fill the cards here
 }
+
+module.exports = {
+  drawVLine,
+  drawHLine,
+  drawSquare,
+  drawLeftTriangle,
+};

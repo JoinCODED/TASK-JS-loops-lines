@@ -1,0 +1,23 @@
+{
+  "name": "task-js-loops-lines",
+  "version": "1.0.0",
+  "description": "1. fork and clone [this repo](https://github.com/JoinCODED/TASK-loops/)\r 2. read the comments and solve the task  👏🏼",
+  "main": "loops.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoinCODED/TASK-JS-loops-lines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoinCODED/TASK-JS-loops-lines/issues"
+  },
+  "homepage": "https://github.com/JoinCODED/TASK-JS-loops-lines#readme",
+  "dependencies": {
+    "jest": "^27.4.7"
+  }
+}
