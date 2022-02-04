@@ -3,7 +3,7 @@
 ## Instructions
 
 1. fork and clone [this repo](https://github.com/JoinCODED/TASK-loops/)
-2. read the comments and solve the task  👏🏼
+2. read the comments and solve the task 👏🏼
 
 #### Running Your Code
 
@@ -33,6 +33,3 @@ $ npm test
 This command will run the testing file and test your code to make sure it has all the required features.
 
 You'll know when you're done when your code passes all the tests.
-
-
-## The tests are for the first 4 functions.
