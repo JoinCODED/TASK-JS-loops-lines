@@ -10,6 +10,9 @@
  */
 function drawVLine(n) {
   // Continue the code here
+  for (let i = 0; i < n; i++) {
+    console.log('#');
+  }
 }
 /**
  *
@@ -18,6 +21,11 @@ function drawVLine(n) {
  */
 function drawHLine(n) {
   // Continue the code here
+  let result = '';
+  for (let i = 0; i < n; i++) {
+    result = result + '# ';
+  }
+  console.log(result);
 }
 
 /**
@@ -25,15 +33,22 @@ function drawHLine(n) {
  * In this function, you will have to draw a square with a length of `n` 
  * for example `drawSquare(5) should print out 
  
-  #  #  #  #  #
-  #  #  #  #  #
-  #  #  #  #  #
-  #  #  #  #  #
-  #  #  #  #  #
+  #  #  #  #  # 
+  #  #  #  #  # 
+  #  #  #  #  # 
+  #  #  #  #  # 
+  #  #  #  #  # 
 
  */
 function drawSquare(n) {
   // Continue the code here
+  let line = ' ';
+  for (let i = 0; i < n; i++) {
+    line = line + '# ';
+  }
+  for (let i = 0; i < n; i++) {
+    console.log(line);
+  }
 }
 
 /**
@@ -50,6 +65,11 @@ function drawSquare(n) {
  */
 function drawLeftTriangle(n) {
   // Continue the code here
+  let result = '';
+  for (let i = 0; i < n; i++) {
+    result = result + '#';
+    console.log(result);
+  }
 }
 
 /**
@@ -79,3 +99,10 @@ function fillUnoDeck() {
   let blueCards = [];
   // Fill the cards here
 }
+
+module.exports = {
+  drawVLine,
+  drawHLine,
+  drawSquare,
+  drawLeftTriangle,
+};
