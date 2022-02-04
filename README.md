@@ -10,7 +10,7 @@
 To run the code you're writing without running the automated tests, call the function you'd like to test manually in `funcions.js` and run the following command:
 
 ```bash
-$ node iterators.js
+$ node loops.js
 ```
 
 #### Running The Tests
